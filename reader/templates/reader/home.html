@@ -1,0 +1,10 @@
+{% extends "reader/layout.html" %}
+{% block content %}
+<div class="jumbotron">
+  <h1>My Outlook Reader</h1>
+  <p>Connect to your outlook and start fetching desired emails.</p>
+  <p>
+    <a class="btn btn-lg btn-primary" href="{{signin_url}}" role="button" id="connect-button">Sign in</a>
+  </p>
+</div>
+{% endblock %}
